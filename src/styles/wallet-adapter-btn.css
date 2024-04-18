@@ -1,0 +1,6 @@
+.wallet-adapter-button-trigger {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ffd47a 0%, #ffb210 100%);
+  box-shadow: 0px 4px 4px 0px rgba(255, 183, 31, 0.2),
+    0px -4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}

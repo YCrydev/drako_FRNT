@@ -1,0 +1,27 @@
+/* ScrollableImageContainer.css */
+.side-scrollable-container {
+  display: flex;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: blue gray;
+  scroll-behavior: smooth;
+}
+
+.side-scrollable-container::-webkit-scrollbar {
+  height: 12px;
+}
+
+.side-scrollable-container::-webkit-scrollbar-track {
+  background: gray;
+}
+
+.side-scrollable-container::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+  border: 3px solid gray;
+}
+
+.scroll-right-btn {
+  cursor: pointer;
+  /* Add more styles for your button here */
+}

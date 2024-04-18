@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Lato700";
+  src: url("./Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato400";
+  src: url("./Lato-Regular.ttf");
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background: #201a21;
+}
+
+.image-container {
+  width: 100%; /* Full width of the container */
+  height: 912px; /* Adjust height as needed */
+  background-image: url("/main.png");
+  background-position: center; /* Center the image */
+  background-size: cover; /* Cover the width, cropping as necessary */
+  background-repeat: no-repeat;
+}
+
+.drako-image-container {
+  width: 100%; /* Full width of the container */
+  height: 669px; /* Adjust height as needed */
+  background-image: url("/drako_main.png");
+  background-position: center; /* Center the image */
+  background-size: cover; /* Cover the width, cropping as necessary */
+  background-repeat: no-repeat;
+  border-radius: 32px;
+}
+
+.scroller-blue {
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #ff5050;
+  }
+}
+
+.blur-first {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.4);
+  filter: blur(32.849998474121094px);
+  backdrop-filter: blur(6px);
+}
+
+.time-box {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+}
+
+.ticket-box {
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: linear-gradient(180deg, #ffd47a 0%, #ffb210 100%);
+  box-shadow: 0px 4px 4px 0px rgba(255, 183, 31, 0.2),
+    0px -4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+.scroller-blue {
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: purple;
+  }
+}
+

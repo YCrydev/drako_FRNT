@@ -1,0 +1,27 @@
+.main-blur {
+  border-radius: 40px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px); /* For Safari compatibility */
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure it covers the area you want */
+  height: 100%; /* Ditto */
+}
+
+.buy-ticket-blur {
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px;
+  border: 1px solid #000;
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.4);
+  filter: blur(17px);
+  backdrop-filter: blur(6px);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure it covers the area you want */
+  height: 100%; /* Ditto */
+}

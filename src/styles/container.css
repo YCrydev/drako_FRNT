@@ -1,0 +1,15 @@
+.main-historical-info-container {
+  border-radius: 8px;
+  border: 1px solid #8a73c1;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+}
+
+.main-historical-info-container-absolute {
+  border-radius: 8px;
+  background: rgba(97, 46, 223, 0.6);
+  filter: blur(90px);
+}

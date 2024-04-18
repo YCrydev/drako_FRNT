@@ -1,0 +1,6 @@
+.linear-gradient-yellow {
+  background: linear-gradient(180deg, #ffd47a 0%, #ffb210 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
